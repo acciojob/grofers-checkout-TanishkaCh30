@@ -10,6 +10,7 @@ const getSum = () => {
 	}
 
 	let newRow = document.createElement("tr");
+	newRow.id = 'ans';
 	newRow.innerText = totalPrice;
 	document.body.appendChild(newRow);
   
